@@ -1,0 +1,25 @@
+{
+  "name": "hellonode",
+  "version": "0.0.1",
+  "description": "An app with a db container connected to a web container",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.11.2",
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaydeep Solanki <jaydp17@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaydeep17/docker_node_redis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jaydeep17/docker_node_redis/issues"
+  },
+  "homepage": "https://github.com/jaydeep17/docker_node_redis"
+}
